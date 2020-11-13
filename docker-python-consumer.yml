@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  consumer:
+    build:
+      context: .
+      dockerfile: python.Dockerfile
+    volumes:
+      - .:/code
+    working_dir: /code/consumer
+    command: "python main.py"
