@@ -2,7 +2,7 @@
     Responsible for reading input from the producer. 
 """
 
-from confluent_kafka import Producer
+from confluent_kafka import Producer, KafkaError
 import socket
 
 running = True

@@ -4,7 +4,7 @@ Sample demonstrating creating dockerized zookeeper and kafka.
 The app also demos how to use Python kafka client, please look inside 
 producer and consumer main.py files. 
 
-The producer takes the user input and puts sends to kafka and then the consumer reads what the user has put there. 
+The producer takes the user input, publishes it to kafka and then the consumer reads the message and prints it on the screen.
 
 ### To Start Demo
 
